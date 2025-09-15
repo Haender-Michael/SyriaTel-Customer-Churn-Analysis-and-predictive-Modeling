@@ -81,13 +81,13 @@ bellow are questions that the management Team of SyriaTel might want to ask.Thes
 #### **Recommendation**:  the company may want to do additional data gathering on international calls, and try to see which of it's aspect botters client.
     
 #### **Do customer service calls play a significant role in churn?**
-Customers that has the most customer service call are the most likely to churn. This is a sign that the customer service might still has room for improvement.
+Customers that has the most customer service call are among the most likely to churn. This is a sign that the customer service might still has room for improvement.
 
 **Recommentdation**: the company should put more effort on understanding clients problem,and fix them as effectively as possible.
 the call from customers should be handle with tact, as customer satisfaction is likely to  reduce churn.
 
-**Based on our analysis, what are actionable strategies to reduce churn?**\n",
-to reduce churn the company might want to give the clients a better experience on international calls. they might also want to handle customer call more efficiently. since clients with most international and customer service call churn.
+**Based on our analysis, what are actionable strategies to reduce churn?**
+to reduce churn the company might want to give the clients a better experience on international calls. they might also want to handle customer call more efficiently. since clients with most international and customer service call churn.An holistic approach would also be great since clients that churns may have many of the caracteristics affecting churn. All of the most recurrent caracteristic in customer that stops taking service at the company should be addressed.
     
 **Which specific states have the highest churn rates?**
 Mariland, Minesota and Virginia are the states that have the highest churn Rates.
