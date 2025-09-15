@@ -16,9 +16,9 @@ This step is essential to make sure things go smoothly and geting a good underst
 #### **Statistical modeling**
 In this part we will use the insight that we get from the exploratory data analysis to make a predictive model of SyriaTel Customer churn.
 #### **Major questions**
-Questions that the management Team of SyriaTel might want to ask.These questions are based on our data and business understanding. They will be answered by our model.(the recommendations will be provided along answering the major questions)\n",
+Questions that the management Team of SyriaTel might want to ask.These questions are based on our data and business understanding. They will be answered by our model.(recommendations will be provided along answering the major questions)
 #### **Summary**
-#### **Contact information**"
+#### **Contact information**
 
 ## Exploratory Data Analysis (EDA)
 #### **Data cleaning**
