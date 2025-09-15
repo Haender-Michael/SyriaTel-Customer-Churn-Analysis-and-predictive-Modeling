@@ -1,4 +1,7 @@
-Introduction
+# SyriaTel Customer Churn Analysis and predictive Modeling
+![Alt text](https://your-image-host.com/image.png)
+source: https://syrianobserver.com/uncategorized/syriatel-receivership-to-be-lifted-soon-new-ceo-appointed.html
+## Introduction
 "For this analysis, we will use the dataset: [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset?resource=download) ,which contains comprehensive information about churn, customer service calls, account length (the number of days a client has had their account active), total calls per day, daily charge, etc.\n",
         "\n",
         "The goal is to help the telecom business reduce the amount of money lost due to customer churn and build a model that will help predict the type of client that will likely do so."
