@@ -24,7 +24,7 @@ Questions that the management Team of SyriaTel might want to ask.These questions
 the dataset has no duplicates nor missing values and it was already pretty clean ,so  many other cleaning steps aren't necessary.
 we just had to remove space in column name and set number as ID.
 #### **Data/ Business understanding** 
-After cleaning the data was found to be imbalanced, which means there is one class that was far more recurrent in the dataset than the other.
+After cleaning, the data was found to be imbalanced, which means there is one class that was far more recurrent in the dataset than the other.
 
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/f3ea6d6049aa100aaec2457d314bdb44bca69711/les%20images/Image%202.png)
   
@@ -46,8 +46,7 @@ each model will be followed by an analysis of it's  performance.
 we will  use Logistic regression because it’s simple, interpretable, and well-suited for binary classification and we will use the classification matrix to compare the model performance .
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/9be15a5355f48ee990d4329febc2dbab26fec7ef/les%20images/image%203.png)
 #### **Analysis**
-the baseline model performs well enough to predict non churn but very poorly on churn (with low precision, accuracy and F-1 score) . and since we are mostly interested in churn we will keep tuning the model.
-    
+the baseline model performs well enough to predict non churn but very poorly on churn. As we can see the model predicted a lot of non churn while these customers actually churned. the data did not predict effectively the customer that are likely to churn. It has a high rate of false negative so we won't chose this model.
 ### perfecting model.
 we will have different version of the model tuned so that it can perform as best as possible.
 In the end all model will be represented on a ROC curve for a better comparaison.
@@ -55,17 +54,17 @@ In the end all model will be represented on a ROC curve for a better comparaison
 #### **Model 2**
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/9be15a5355f48ee990d4329febc2dbab26fec7ef/les%20images/image%204.png)
 ####**Analysis**
-This model showed improved performance in identifying churn, with recall for True rising from 0.09 in the baseline to 0.64  and a really higher F1-score.
-     
+This model showed improved performance in identifying churn. There are much more true positive and less False negative wich means that we predicted as churn a lot of customers that actually churn.
 #### **Model 3**
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/23b5e9a9e5b655ddcff4690a9b2b51714f682453/Model%203.png)
 #### **Analysis**
-this model performs better in precision for both True and False and the f1-score has come from 0.37 to 0.44."
-    
+this model performs better  than the previous ones with higher rate of true negative and higher rate of true positive.
+
 #### **Model 4**
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/4df43d43624a7d1525de6e569700cc10506faac2/les%20images/Image%205.png)
 #### **Analysis**
 this model perform great overall whether it's precision or recall. it is also likely to perfom well on unseen data. with an AUC of 0.93 it's the best of all  the models which is why we will keep it.
+Below is it's graph in comparaison with the other.
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/4df43d43624a7d1525de6e569700cc10506faac2/les%20images/Image%206.png)
 ## Major questions
     
@@ -77,19 +76,21 @@ bellow are questions that the management Team of SyriaTel might want to ask.Thes
   
 #### **What customers are most likely to churn ?**
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/4df43d43624a7d1525de6e569700cc10506faac2/les%20images/Image%207.png)
-#### **Note**: the customers that make the most international  plan along with the most customer service calls are the most likely to churn.\n",
-#### **Recommendation**: the company may want to do additional data gathering on international calls, and try to see which of it's aspect botters client.
+#### **Note** :  the customers that make the most international  plan along with the most customer service calls are the most likely to churn.
+#### **Recommendation**:  the company may want to do additional data gathering on international calls, and try to see which of it's aspect botters client.
     
 #### **Do customer service calls play a significant role in churn?**
-"Customers that has the most customer service call are the most likely to churn. This is a sign that the customer service might still has room for improvement.
-**Recommentdation**: the company should put more effort on understanding clients problem,and fix them as effectively as possible."
+Customers that has the most customer service call are the most likely to churn. This is a sign that the customer service might still has room for improvement.
+
+**Recommentdation**: the company should put more effort on understanding clients problem,and fix them as effectively as possible.
+the call from customers should be handle with tact, as customer satisfaction is likely to  reduce churn.
 
 **Based on our analysis, what are actionable strategies to reduce churn?**\n",
-to reduce churn the company might want to give the clients a better experience on international calls. they might also want to handle customer call more effectively."
+to reduce churn the company might want to give the clients a better experience on international calls. they might also want to handle customer call more efficiently. since clients with most international and customer service call churn.
     
 **Which specific states have the highest churn rates?**\n",
-Mariland, Minesota and Virginia are the states that have the highest churn Rates.\n",
-**Recommendation**: further data should be gathered on this specific states.Poles might be a great way to proceed."
+Mariland, Minesota and Virginia are the states that have the highest churn Rates.
+**Recommendation**: further data should be gathered on this specific states.Poles might be a great way to proceed.
 
 ## Summary
 For this analysis, we used the [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset?resource=download). We began with a dataset overview and performed necessary data cleaning. After cleaning, we gained a good understanding of the data and the business problem it addresses. We then developed different models to find the one that provides the best predictions on unseen data. Finally, we addressed major questions based on our analysis and provided recommendations."
