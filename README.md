@@ -59,7 +59,7 @@ This model showed improved performance in identifying churn, starting from 10 go
 #### **Model 3**
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/23b5e9a9e5b655ddcff4690a9b2b51714f682453/Model%203.png)
 #### **Analysis**
-this model performs better  than the previous ones with higher rate of true negative and higher rate of true positive.
+this model performs better  than the previous ones with higher rate of true negative and higher rate of true positive. That means the model performs well overall on saying true information.
 
 #### **Model 4**
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/4df43d43624a7d1525de6e569700cc10506faac2/les%20images/Image%205.png)
