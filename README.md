@@ -92,7 +92,7 @@ Mariland, Minesota and Virginia are the states that have the highest churn Rates
 ## Summary
 For this analysis, we used the [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset?resource=download). We began with a dataset overview and performed necessary data cleaning. After cleaning, we gained a good understanding of the data and the business problem it addresses. We then developed different models to find the one that provides the best predictions on unseen data. Finally, we addressed major questions based on our analysis and provided recommendations."
 
-##Contact Information"
+## Contact Information"
    
 - First Name: Haender Michael
 - Last Name: Jean Louis\n",
