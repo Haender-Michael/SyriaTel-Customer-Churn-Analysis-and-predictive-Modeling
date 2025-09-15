@@ -46,15 +46,16 @@ each model will be followed by an analysis of it's  performance.
 we will  use Logistic regression because it’s simple, interpretable, and well-suited for binary classification and we will use the classification matrix to compare the model performance .
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/9be15a5355f48ee990d4329febc2dbab26fec7ef/les%20images/image%203.png)
 #### **Analysis**
-the baseline model performs well enough to predict non churn but very poorly on churn. As we can see the model predicted a lot of non churn while these customers actually churned. the data did not predict effectively the customer that are likely to churn. It has a high rate of false negative so we won't chose this model.
+the baseline model performs well enough to predict non churn but very poorly on churn. As we can see the model predicted a lot of non churn while these customers actually churned. the data did not predict effectively the customer that are likely to churn. It has a high rate of false negative(predicting they will not churn while they actually do) so we won't chose this model.
 ### perfecting model.
 we will have different version of the model tuned so that it can perform as best as possible.
 In the end all model will be represented on a ROC curve for a better comparaison.
     
 #### **Model 2**
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/9be15a5355f48ee990d4329febc2dbab26fec7ef/les%20images/image%204.png)
-####**Analysis**
-This model showed improved performance in identifying churn. There are much more true positive and less False negative wich means that we predicted as churn a lot of customers that actually churn.
+#### **Analysis**
+This model showed improved performance in identifying churn, starting from 10 good prediction on the baseline to 74 on the model. There are much more true positive( prediction = actual occurence), yet the model gives a lot of false positive, which mean even though they perform well on Identifying most of the churn they still classify some important cases of non-churn as churn.
+
 #### **Model 3**
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/23b5e9a9e5b655ddcff4690a9b2b51714f682453/Model%203.png)
 #### **Analysis**
