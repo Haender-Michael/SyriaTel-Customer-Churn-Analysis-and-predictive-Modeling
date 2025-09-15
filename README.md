@@ -44,7 +44,7 @@ each model will be followed by an analysis of it's  performance.
 
 #### **Baseline model**
 we will  use Logistic regression because it’s simple, interpretable, and well-suited for binary classification and we will use the classification matrix to compare the model performance .
-![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/f3ea6d6049aa100aaec2457d314bdb44bca69711/les%20images/Image%202.png)
+![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/9be15a5355f48ee990d4329febc2dbab26fec7ef/les%20images/image%203.png)
 #### **Analysis**
 the baseline model performs well enough to predict non churn but very poorly on churn (with low precision, accuracy and F-1 score) . and since we are mostly interested in churn we will keep tuning the model.
     
