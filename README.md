@@ -10,7 +10,6 @@ The goal is to help the telecom business reduce the amount of money lost due to 
 
 #### **Exploratory Data Analysis (EDA)**
 This step is essential to make sure things go smoothly and geting a good understanding of the dataset:
-- dataset overview
 - data cleaning
 - data/ Business understanding
 #### **Statistical modeling**
@@ -22,9 +21,9 @@ Questions that the management Team of SyriaTel might want to ask.These questions
 
 ## Exploratory Data Analysis (EDA)
 #### **Data cleaning**
-### Data/ Business understanding
-- check for class imbalance
-- understanding
+#### ** Data/ Business understanding** 
+After cleaning the data was found to be imbalanced, which means there is one class that was far more recurrent in the dataset than the other.
+![Alt text]()
   
 #### **Data Understanding**
 The dataset tracks SyriaTel customers’ phone activity and contract details, including location, phone number, international and voicemail plans, and stored messages. It also records service usage—minutes, calls, and charges across day, evening, night, and international periods—plus customer service interactions. The target variable churn indicates whether a customer canceled their subscription. The goal is to identify patterns that predict churn.
