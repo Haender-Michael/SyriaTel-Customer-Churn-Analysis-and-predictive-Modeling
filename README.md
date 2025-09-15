@@ -23,19 +23,19 @@ Questions that the management Team of SyriaTel might want to ask.These questions
 #### **Data cleaning**
 the dataset has no duplicates nor missing values and it was already pretty clean ,so  many other cleaning steps aren't necessary.
 we just had to remove space in column name and set number as ID.
-#### ** Data/ Business understanding** 
+#### **Data/ Business understanding** 
 After cleaning the data was found to be imbalanced, which means there is one class that was far more recurrent in the dataset than the other.
 
 ![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/f3ea6d6049aa100aaec2457d314bdb44bca69711/les%20images/Image%202.png)
   
 #### **Data Understanding**
 The dataset tracks SyriaTel customers’ phone activity and contract details, including location, phone number, international and voicemail plans, and stored messages. It also records service usage—minutes, calls, and charges across day, evening, night, and international periods—plus customer service interactions. The target variable churn indicates whether a customer canceled their subscription. The goal is to identify patterns that predict churn.
-####**Business Understanding**
+#### **Business Understanding**
 Customer churn poses a financial risk for SyriaTel, making retention a priority. Understanding why customers leave—whether due to service quality, pricing, or support—is key. By analyzing usage and subscription data, the company can identify at-risk customers and build a predictive model to guide proactive retention strategies.
       
   
 
-## Statistical modeling\n",
+## Statistical modeling
 - baseline model
 - perfecting model
 - final model
@@ -43,8 +43,8 @@ Customer churn poses a financial risk for SyriaTel, making retention a priority.
 each model will be followed by an analysis of it's  performance.
 
 #### **Baseline model**
-we will  use Logistic regression because it’s simple, interpretable, and well-suited for binary classification.
-
+we will  use Logistic regression because it’s simple, interpretable, and well-suited for binary classification and we will use the classification matrix to compare the model performance .
+![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/f3ea6d6049aa100aaec2457d314bdb44bca69711/les%20images/Image%202.png)
 #### **Analysis**
 the baseline model performs well enough to predict non churn but very poorly on churn (with low precision, accuracy and F-1 score) . and since we are mostly interested in churn we will keep tuning the model.
     
