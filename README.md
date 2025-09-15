@@ -21,9 +21,12 @@ Questions that the management Team of SyriaTel might want to ask.These questions
 
 ## Exploratory Data Analysis (EDA)
 #### **Data cleaning**
+the dataset has no duplicates nor missing values and it was already pretty clean ,so  many other cleaning steps aren't necessary.
+we just had to remove space in column name and set number as ID.
 #### ** Data/ Business understanding** 
 After cleaning the data was found to be imbalanced, which means there is one class that was far more recurrent in the dataset than the other.
-![Alt text]()
+
+![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/f3ea6d6049aa100aaec2457d314bdb44bca69711/les%20images/Image%202.png)
   
 #### **Data Understanding**
 The dataset tracks SyriaTel customers’ phone activity and contract details, including location, phone number, international and voicemail plans, and stored messages. It also records service usage—minutes, calls, and charges across day, evening, night, and international periods—plus customer service interactions. The target variable churn indicates whether a customer canceled their subscription. The goal is to identify patterns that predict churn.
