@@ -63,10 +63,10 @@ This model showed improved performance in identifying churn, with recall for Tru
 this model performs better in precision for both True and False and the f1-score has come from 0.37 to 0.44."
     
 #### **Model 4**
-
+![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/4df43d43624a7d1525de6e569700cc10506faac2/les%20images/Image%205.png)
 #### **Analysis**
 this model perform great overall whether it's precision or recall. it is also likely to perfom well on unseen data. with an AUC of 0.93 it's the best of all  the models which is why we will keep it.
-
+![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/4df43d43624a7d1525de6e569700cc10506faac2/les%20images/Image%206.png)
 ## Major questions
     
 bellow are questions that the management Team of SyriaTel might want to ask.These questions are based on our data and business understanding .They will be answered by our model.
@@ -76,7 +76,7 @@ bellow are questions that the management Team of SyriaTel might want to ask.Thes
 - Which specific states have the highest churn rates?\n
   
 #### **What customers are most likely to churn ?**
-    
+![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/4df43d43624a7d1525de6e569700cc10506faac2/les%20images/Image%207.png)
 #### **Note**: the customers that make the most international  plan along with the most customer service calls are the most likely to churn.\n",
 #### **Recommendation**: the company may want to do additional data gathering on international calls, and try to see which of it's aspect botters client.
     
