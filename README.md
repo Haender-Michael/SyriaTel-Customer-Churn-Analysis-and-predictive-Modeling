@@ -53,12 +53,12 @@ we will have different version of the model tuned so that it can perform as best
 In the end all model will be represented on a ROC curve for a better comparaison.
     
 #### **Model 2**
-    
+![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/9be15a5355f48ee990d4329febc2dbab26fec7ef/les%20images/image%204.png)
 ####**Analysis**
 This model showed improved performance in identifying churn, with recall for True rising from 0.09 in the baseline to 0.64  and a really higher F1-score.
      
 #### **Model 3**
-    
+![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/23b5e9a9e5b655ddcff4690a9b2b51714f682453/Model%203.png)
 #### **Analysis**
 this model performs better in precision for both True and False and the f1-score has come from 0.37 to 0.44."
     
