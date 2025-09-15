@@ -1,81 +1,36 @@
 # SyriaTel Customer Churn Analysis and predictive Modeling
-![Alt text]([https://your-image-host.com/image.png](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/a88994862d3e2a9a5267b3e6c22eb72d50b4899c/les%20images/image%201.webp))
+![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/0ae85ade5aae03b04636890103a3e4dbbfed8e73/les%20images/Image%2010.jpg)
 source: https://syrianobserver.com/uncategorized/syriatel-receivership-to-be-lifted-soon-new-ceo-appointed.html
 ## Introduction
-"For this analysis, we will use the dataset: [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset?resource=download) ,which contains comprehensive information about churn, customer service calls, account length (the number of days a client has had their account active), total calls per day, daily charge, etc.\n",
-        "\n",
-        "The goal is to help the telecom business reduce the amount of money lost due to customer churn and build a model that will help predict the type of client that will likely do so."
-      ]
-    },
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "Y5qHoxpotuOz"
-      },
-      "source": [
-        "## Methodology\n",
-        "#### **Exploratory Data Analysis (EDA)**\n",
-        "This step is essential to make sure things go smoothly and geting a good understanding of the dataset:\n",
-        "- dataset overview\n",
-        "- data cleaning\n",
-        "- data/ Business understanding\n",
-        "#### **Statistical modeling**\n",
-        "In this part we will use the insight that we get from the exploratory data analysis to make a predictive model of SyriaTel Customer churn.\n",
-        "#### **Major questions**\n",
-        "Questions that the management Team of SyriaTel might want to ask.These questions are based on our data and business understanding. They will be answered by our model.(the recommendations will be provided along answering the major questions)\n",
-        "#### **Summary**\n",
-        "#### **Contact information**"
-      ]
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "## Exploratory Data Analysis (EDA)\n"
-      ],
-      "metadata": {
-        "id": "EJAGcYA3__7R"
-      }
-    },
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "qQGtceTymZkc"
-      },
-      "source": [
-        "#### **Dataset overview**\n",
-        "\n"
-      ]
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "####**Data cleaning**"
-      ],
-      "metadata": {
-        "id": "MyPCJZWICMxs"
-      }
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "### Data/ Business understanding\n",
-        "- check for class imbalance\n",
-        "- understanding"
-      ],
-      "metadata": {
-        "id": "qyaCQbkDDppO"
-      }
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "#### **Data Understanding**\n",
-        "The dataset tracks SyriaTel customers’ phone activity and contract details, including location, phone number, international and voicemail plans, and stored messages. It also records service usage—minutes, calls, and charges across day, evening, night, and international periods—plus customer service interactions. The target variable churn indicates whether a customer canceled their subscription. The goal is to identify patterns that predict churn.\n",
-        "\n",
-        "####**Business Understanding**\n",
-        "Customer churn poses a financial risk for SyriaTel, making retention a priority. Understanding why customers leave—whether due to service quality, pricing, or support—is key. By analyzing usage and subscription data, the company can identify at-risk customers and build a predictive model to guide proactive retention strategies.\n",
-        "\n",
-        "\n"
+For this analysis, we will use the dataset: [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset?resource=download) ,which contains comprehensive information about churn, customer service calls, account length (the number of days a client has had their account active), total calls per day, daily charge, etc.
+
+The goal is to help the telecom business reduce the amount of money lost due to customer churn and build a model that will help predict the type of client that will likely do so.
+    
+## Methodology
+
+#### **Exploratory Data Analysis (EDA)**
+This step is essential to make sure things go smoothly and geting a good understanding of the dataset:
+- dataset overview
+- data cleaning
+- data/ Business understanding
+#### **Statistical modeling**
+In this part we will use the insight that we get from the exploratory data analysis to make a predictive model of SyriaTel Customer churn.
+#### **Major questions**
+Questions that the management Team of SyriaTel might want to ask.These questions are based on our data and business understanding. They will be answered by our model.(the recommendations will be provided along answering the major questions)\n",
+#### **Summary**
+#### **Contact information**"
+
+## Exploratory Data Analysis (EDA)\n"
+#### **Data cleaning**
+### Data/ Business understanding\n",
+- check for class imbalance\n",
+- understanding"
+  
+#### **Data Understanding**
+The dataset tracks SyriaTel customers’ phone activity and contract details, including location, phone number, international and voicemail plans, and stored messages. It also records service usage—minutes, calls, and charges across day, evening, night, and international periods—plus customer service interactions. The target variable churn indicates whether a customer canceled their subscription. The goal is to identify patterns that predict churn.
+####**Business Understanding**\n",
+Customer churn poses a financial risk for SyriaTel, making retention a priority. Understanding why customers leave—whether due to service quality, pricing, or support—is key. By analyzing usage and subscription data, the company can identify at-risk customers and build a predictive model to guide proactive retention strategies.
+      
       ],
       "metadata": {
         "id": "ib_jfwydAGdu"
