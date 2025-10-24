@@ -107,35 +107,3 @@ For further inquiries, feedback, or collaboration on this analysis, feel free to
      
 
 
-
-#### **What customers are most likely to churn ?**
-![Alt text](https://github.com/Haender-Michael/SyriaTel-Customer-Churn-Analysis-and-predictive-Modeling/blob/4df43d43624a7d1525de6e569700cc10506faac2/les%20images/Image%207.png)
-#### **Note** :  the customers that make the most international  plan along with the most customer service calls are the most likely to churn.
-#### **Recommendation**:  the company may want to do additional data gathering on international calls, and try to see which of it's aspect botters client.
-    
-#### **Do customer service calls play a significant role in churn?**
-Customers that has the most customer service call are among the most likely to churn. This is a sign that the customer service might still has room for improvement.
-
-**Recommentdation**: the company should put more effort on understanding clients problem,and fix them as effectively as possible.
-the call from customers should be handle with tact, as customer satisfaction is likely to  reduce churn.
-
-**Based on our analysis, what are actionable strategies to reduce churn?**
-to reduce churn the company might want to give the clients a better experience on international calls. they might also want to handle customer call more efficiently. since clients with most international and customer service call churn.An holistic approach would also be great since clients that churns may have many of the caracteristics affecting churn. All of the most recurrent caracteristic in customer that stops taking service at the company should be addressed.
-    
-**Which specific states have the highest churn rates?**
-Mariland, Minesota and Virginia are the states that have the highest churn Rates.
-**Recommendation**: further data should be gathered on this specific states.Poles might be a great way to proceed.
-
-## Summary
-For this analysis, we used the [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset?resource=download). We began with a dataset overview and performed necessary data cleaning. After cleaning, we gained a good understanding of the data and the business problem it addresses. We then developed different models to find the one that provides the best predictions on unseen data. Finally, we addressed major questions based on our analysis and provided recommendations.
-
-## Contact Information"
-   
-- First Name: Haender Michael
-- Last Name: Jean Louis
-- Email: michaelhaenderjeanlouis@gmail.com
-- Phone Number: +509 41 75 0264
-- LinkedIn: https://www.linkedin.com/in/michael-haender-jean-louis-4b7320316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
-For further inquiries, feedback, or collaboration on this analysis, feel free to reach out. I welcome discussions and any contract to work with the head of the company's new movie team.
-     
-
